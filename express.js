@@ -11,4 +11,5 @@ app.use(cookieParser())
 app.use(compress())
 app.use(helmet())
 app.use(cors())
+// don't think we need all this but if we do, use this instead of app == express. app.ja
 export default app
