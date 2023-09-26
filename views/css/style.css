@@ -28,7 +28,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: var(--background) url("../img/bg.jpg") top right no-repeat;
+  background: var(--background) url("../images/background.PNG") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
