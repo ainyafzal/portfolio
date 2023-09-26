@@ -19,13 +19,22 @@ app.use(
 // For example:
 app.get('/', (req, res) => {
   res.render('pages/index')
- });
- app.get('/home', (req, res) => {
+});
+app.get('/home', (req, res) => {
   res.render('pages/index')
- });
+});
 
- app.get('/about', (req, res) => {
+app.get('/about', (req, res) => {
   res.render('pages/about')
+})
+app.get('/projects', (req, res) => {
+  res.render('pages/projects')
+})
+app.get('/services', (req, res) => {
+  res.render('pages/services')
+})
+app.get('/contact', (req, res) => {
+  res.render('pages/contact')
 })
 // app.get("*", (req, res) => {
 //   res.render('pages/index')
